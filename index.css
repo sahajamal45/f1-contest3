@@ -1,0 +1,144 @@
+nav {
+    border: 1px;
+    background-color: rgb(222, 228, 222);
+    color: white;
+    padding: 0px;
+    margin-block: 0;
+    width: 100%;
+    /* color:black; */
+}
+ 
+a {
+    text-decoration: none;
+    color: rgb(85, 80, 80);
+    font-size: 20px;
+}
+.for-nav{
+    color:black;
+}
+.overlay-dark {
+    background-color: rgba(black, 0.4);
+    align-content: center;
+}
+.card-img {
+    height:200px;
+    width: 200px;
+}
+/* main {
+     background-color: #05c46b; 
+    font-family: Verdana;
+    text-align: center;
+} */
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .centered1 {
+    position: absolute;
+    top: 55%;
+    left: 55%;
+    transform: translate(-55%, -55%);
+  }
+  
+span{
+    display: flex;
+}
+.btn{
+    background-color: rgb(24, 41, 194);
+    border: none;
+    /* padding:22px 48px; */
+    color:white;
+    margin:93px 0px;
+}
+.image1{
+    height: 300px;
+    width: 100%;
+    /* display: flex; */
+}
+.image2{
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+}
+
+.column{
+    display:flex;
+    padding: 2px 5px 2px 5px;
+    /* height: 700px; */
+
+     /* border: 2px solid white; */
+    /* margin: 2px; */
+}
+
+.column1{
+border: 1px solid rgb(211, 206, 206);
+padding: 10px;
+margin: 5px;
+align-content:start;
+height: 600px;
+}
+.para2{
+    padding-right: 5px;
+}
+main{
+    border: 1px solid rgb(231, 222, 222);
+    margin: 0px 200px 100px 200px;
+    background-color: white;
+    padding: 100px;
+}
+html{
+    background-color: black;
+}
+.navbar{
+    margin:0px;
+    /* padding: 10px; */
+    /* align-items: start; */
+    /* text-size-adjust: 10px; */
+    /* left: 0px; */
+    /* top: 0px; */
+}
+
+form{
+
+}
+#name{
+width: 100%;
+}
+#email{
+    width: 100%;
+}
+#textarea{
+    width: 100%;
+    height: 40px;
+    border: bottom right radius 1px;
+}
+hr{
+    width: 100%;
+}
+
+ table {
+    border-collapse: collapse;
+    border-bottom: 1px solid rgb(155, 144, 144);
+    width: 100%;
+  }
+  table thead{
+    border-bottom: 1px solid rgb(155, 144, 144);
+    border-top: 1px solid rgb(155, 144, 144);
+    width: 100%;
+  }
+  
+  table tr {
+    border-bottom: 1px solid rgb(155, 144, 144);
+    width: 100%;
+  }
+   th td{
+    border-bottom: 1px solid rgb(244, 248, 244);
+    width: 100%;
+   }
+  
+  table tr:last-child {
+    border: 0;
+  }
